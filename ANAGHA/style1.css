@@ -1,0 +1,24 @@
+body{
+    font:arial 16px bold; 
+    margin:20px;
+    padding:30px; 
+    background-color:yellow;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+.highlight{
+    font:bold;
+    color:red;
+}
+ul{
+    padding:30px;
+    margin:30px;
+}
+header{
+    color:papayawhip;
+    padding-top: 20px;
+    min-height: 70px;
+}

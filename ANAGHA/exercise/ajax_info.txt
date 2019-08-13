@@ -1,0 +1,3 @@
+AJAX-Asynchronous Javascript And XML.
+Updates a webpage without relaodingthe page.
+It is not a programming language.

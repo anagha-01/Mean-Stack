@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <style>
+            body{background-color:aqua;
+            text-align:center;
+            font-size:30;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        <p>Welcome to home</p>
+        <input type="text" id="mytext" value=""/>
+        <br></br>
+        <input type="submit" value="click me" onclick="myFunction()">
+        <p id="demo"></p>
+            <script>
+                function myFunction(){
+                    var x=document.getElementById("mytext").value;
+                    document.getElementById("demo").innerHTML=x;
+                    if(x==""){
+                        alert("type something");
+                        return false;
+                    }
+                }
+            </script>
+    </body>
+</html>
